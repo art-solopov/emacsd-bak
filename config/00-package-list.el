@@ -21,7 +21,6 @@
     rvm
     scss-mode
     undo-tree
-    wakatime-mode
     )
   "List of packages to install")
 

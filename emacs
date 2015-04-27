@@ -29,13 +29,22 @@
   (unless (package-installed-p 'f)
     (package-install 'f)
     )
+  (unless (package-installed-p 'dash)
+    (package-install 'dash)
+    )
+  (unless (package-installed-p 's)
+    (package-install 's)
+    )
   (require 'f)
+  (require 'dash)
+  (require 's)
   (add-to-list 'load-path "~/.emacs.d/config/")
-  (dolist (ffn (f-entries "~/.emacs.d/config"))
-    (let* 'fn
-      (setq fn (f-base ffn))
-      (load-library fn)
-      )
+  (dolist (fn 
+           (-distinct
+            (--map (f-base it) 
+                   (--filter (s-ends-with? ".el" it) (f-entries "~/.emacs.d/config")))))
+           (message fn)
+           (load-library fn)
     )
 )
 
