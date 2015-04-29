@@ -2,7 +2,6 @@
 
 (ido-mode)
 (global-undo-tree-mode)
-(global-rinari-mode)
 (global-diff-hl-mode)
 (show-paren-mode)
 (when (package-installed-p 'smex)
@@ -11,3 +10,5 @@
   (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
   )
 (markdown-mode)
+(coffee-mode)
+(yaml-mode)

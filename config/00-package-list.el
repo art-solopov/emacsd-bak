@@ -1,3 +1,4 @@
+;; TODO make the list more readable
 (defvar package-list
   '(
     f
@@ -7,7 +8,6 @@
     undo-tree
     ruby-mode
     ruby-end
-    rinari
     rspec-mode
     smex
     haml-mode
@@ -21,6 +21,7 @@
     rvm
     scss-mode
     undo-tree
+    yaml-mode
     )
   "List of packages to install")
 
