@@ -13,6 +13,7 @@
  '(cua-mode t nil (cua-base))
  '(custom-enabled-themes (quote (wombat)))
  '(delete-old-versions nil)
+ '(enh-ruby-deep-indent-paren nil)
  '(indent-tabs-mode nil)
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.org/packages/"))))
  '(standard-indent 4)

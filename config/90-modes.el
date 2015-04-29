@@ -1,6 +1,7 @@
 ;; This file contains the modes loads to use after the package loads.
 
 (ido-mode)
+(enh-ruby-mode)
 (global-undo-tree-mode)
 (global-diff-hl-mode)
 (show-paren-mode)

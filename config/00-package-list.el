@@ -6,7 +6,7 @@
     s
     magit
     undo-tree
-    ruby-mode
+    enh-ruby-mode
     ruby-end
     rspec-mode
     smex
