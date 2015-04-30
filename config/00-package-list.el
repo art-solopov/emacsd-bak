@@ -22,6 +22,8 @@
     scss-mode
     undo-tree
     yaml-mode
+    projectile
+    flx-ido
     )
   "List of packages to install")
 
