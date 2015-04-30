@@ -1,7 +1,6 @@
 ;; This file contains the modes loads to use after the package loads.
 
 (ido-mode)
-(enh-ruby-mode)
 (global-undo-tree-mode)
 (global-diff-hl-mode)
 (show-paren-mode)
@@ -13,3 +12,7 @@
 (markdown-mode)
 (coffee-mode)
 (yaml-mode)
+
+(add-to-list 'auto-mode-alist '("\\.rb\\'" . enh-ruby-mode))
+(add-to-list 'auto-mode-alist '("Rakefile\\'" . enh-ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.gemspec\\'" . enh-ruby-mode))

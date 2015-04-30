@@ -1,7 +1,11 @@
-;; Keybindings for builtin Emacs functions
+;; Windmove
+(global-set-key (kbd "C-c <up>") 'windmove-up)
+(global-set-key (kbd "C-c <down>") 'windmove-down)
+(global-set-key (kbd "C-c <left>") 'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
 
-(global-set-key (kbd "C-x <M-up>") 'windmove-up)
-(global-set-key (kbd "C-x <M-down>") 'windmove-down)
-(global-set-key (kbd "C-x <M-left>") 'windmove-left)
-(global-set-key (kbd "C-x <M-right>") 'windmove-right)
+;; Magit
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;; Ibuffer
+(global-set-key (kbd "C-x C-b") 'ibuffer-list-buffers)

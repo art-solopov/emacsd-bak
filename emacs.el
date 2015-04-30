@@ -27,6 +27,8 @@
 
 (set-face-attribute 'default nil :height 140)
 
+(setq default-directory (getenv "PWD"))
+
 (defun after-init-packages ()
   (unless (package-installed-p 'f)
     (package-install 'f)
