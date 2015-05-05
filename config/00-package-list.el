@@ -23,7 +23,9 @@
     undo-tree
     yaml-mode
     projectile
+    projectile-rails
     flx-ido
+    ag
     )
   "List of packages to install")
 

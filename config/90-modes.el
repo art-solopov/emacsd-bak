@@ -5,6 +5,7 @@
 (global-diff-hl-mode)
 (show-paren-mode)
 (projectile-global-mode)
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
 (when (package-installed-p 'smex)
   (global-set-key (kbd "M-x") 'smex)
   ;; This is your old M-x.
