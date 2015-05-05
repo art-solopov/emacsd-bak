@@ -23,7 +23,10 @@
     undo-tree
     yaml-mode
     projectile
+    projectile-rails
     flx-ido
+    rainbow-mode
+    dired-rainbow
     )
   "List of packages to install")
 
