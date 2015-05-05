@@ -17,7 +17,8 @@
  '(indent-tabs-mode nil)
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.org/packages/"))))
  '(standard-indent 4)
- '(tab-stop-list (quote (4 8))))
+ '(tab-stop-list (quote (4 8)))
+ '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -27,7 +28,7 @@
 
 (set-face-attribute 'default nil :height 140)
 
-(setq default-directory (getenv "PWD"))
+(require 'uniquify)
 
 (defun after-init-packages ()
   (unless (package-installed-p 'f)

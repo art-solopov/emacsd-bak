@@ -27,6 +27,7 @@
     flx-ido
     rainbow-mode
     dired-rainbow
+    ag
     )
   "List of packages to install")
 
