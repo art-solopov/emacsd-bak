@@ -4,9 +4,13 @@
 (global-undo-tree-mode)
 (global-diff-hl-mode)
 (show-paren-mode)
-(rainbow-mode)
+
 (projectile-global-mode)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
+
+(add-hook 'css-mode-hook 'rainbow-mode)
+(add-hook 'scss-mode-hook 'rainbow-mode)
+
 (when (package-installed-p 'smex)
   (global-set-key (kbd "M-x") 'smex)
   ;; This is your old M-x.
