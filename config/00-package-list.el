@@ -28,6 +28,7 @@
     rainbow-mode
     dired-rainbow
     ag
+    auto-complete
     )
   "List of packages to install")
 
