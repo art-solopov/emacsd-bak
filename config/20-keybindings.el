@@ -8,4 +8,4 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 
 ;; Ibuffer
-(global-set-key (kbd "C-x C-b") 'ibuffer-list-buffers)
+(global-set-key (kbd "C-x C-b") 'ibuffer)

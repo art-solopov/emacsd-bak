@@ -29,6 +29,8 @@
     dired-rainbow
     ag
     auto-complete
+    clean-aindent-mode
+    highlight-indentation
     )
   "List of packages to install")
 

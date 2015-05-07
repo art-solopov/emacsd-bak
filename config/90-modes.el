@@ -11,6 +11,8 @@
 (global-undo-tree-mode)
 (global-diff-hl-mode)
 (show-paren-mode)
+(global-linum-mode)
+(clean-aindent-mode t)
 
 (projectile-global-mode)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
