@@ -31,6 +31,7 @@
     auto-complete
     clean-aindent-mode
     highlight-indentation
+    lush-theme
     )
   "List of packages to install")
 

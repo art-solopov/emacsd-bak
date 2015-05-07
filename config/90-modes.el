@@ -20,6 +20,8 @@
 (add-hook 'css-mode-hook 'rainbow-mode)
 (add-hook 'scss-mode-hook 'rainbow-mode)
 
+(add-hook 'find-file-hook 'whitespace-mode)
+
 (when (package-installed-p 'smex)
   (global-set-key (kbd "M-x") 'smex)
   ;; This is your old M-x.

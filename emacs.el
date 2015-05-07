@@ -11,7 +11,7 @@
  '(css-indent-offset 2)
  '(cua-enable-cua-keys t)
  '(cua-mode t nil (cua-base))
- '(custom-enabled-themes (quote (wombat)))
+ '(custom-enabled-themes (quote (lush)))
  '(delete-old-versions nil)
  '(enh-ruby-deep-indent-paren nil)
  '(global-whitespace-mode t)
@@ -21,12 +21,13 @@
  '(tab-stop-list (quote (4 8)))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
  '(whitespace-style (quote (face tabs trailing lines indentation empty space-after-tab))))
+ '(whitespace-style (quote (face tabs trailing indentation space-after-tab))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(column-marker-1 ((t (:background "black")))))
+ '(column-marker-1 ((t (:background "black"))) t))
 
 (set-face-attribute 'default nil :height 140)
 
