@@ -9,3 +9,6 @@
 
 ;; Ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+
+;; Highlight indentation
+(global-set-key (kbd "C-x M-i") 'highlight-indentation-mode)

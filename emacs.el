@@ -20,7 +20,6 @@
  '(standard-indent 4)
  '(tab-stop-list (quote (4 8)))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
- '(whitespace-style (quote (face tabs trailing lines indentation empty space-after-tab))))
  '(whitespace-style (quote (face tabs trailing indentation space-after-tab))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -47,9 +46,9 @@
   (require 'dash)
   (require 's)
   (add-to-list 'load-path "~/.emacs.d/config/")
-  (dolist (fn 
+  (dolist (fn
            (-distinct
-            (--map (f-base it) 
+            (--map (f-base it)
                    (--filter (s-ends-with? ".el" it) (f-entries "~/.emacs.d/config")))))
            (message fn)
            (load-library fn)
@@ -57,3 +56,5 @@
 )
 
 (add-hook 'after-init-hook 'after-init-packages)
+(add-hook 'after-init-hook (lambda ()
+                             (load-theme 'lush t)))
