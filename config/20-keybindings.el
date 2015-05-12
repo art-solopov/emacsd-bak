@@ -12,3 +12,6 @@
 
 ;; Highlight indentation
 (global-set-key (kbd "C-x M-i") 'highlight-indentation-mode)
+
+;; Goto line
+(global-set-key (kbd "M-p") 'goto-line)
