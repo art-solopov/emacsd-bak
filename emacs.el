@@ -17,7 +17,7 @@
  '(indent-tabs-mode nil)
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.org/packages/"))))
  '(standard-indent 4)
- '(tab-stop-list (quote (4 8)))
+ '(tab-stop-list (number-sequence 4 200 4))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
  '(whitespace-style (quote (face tabs trailing indentation space-after-tab))))
 (custom-set-faces
@@ -26,7 +26,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-marker-1 ((t (:background "black"))) t)
- '(highlight-indentation-face ((t (:background "#DDD")))))
+ '(highlight-indentation-face ((t (:background "#555"))) t))
 
 (set-face-attribute 'default nil :height 140)
 
