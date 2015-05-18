@@ -8,3 +8,4 @@
 (add-hook 'perl-mode-hook 'add-lines-to-whitespace)
 (add-hook 'erlang-mode-hook 'add-lines-to-whitespace)
 (add-hook 'elixir-mode-hook 'add-lines-to-whitespace)
+(add-hook 'markdown-mode-hook 'add-lines-to-whitespace)

@@ -15,3 +15,6 @@
 
 ;; Goto line
 (global-set-key (kbd "M-p") 'goto-line)
+
+;; Paste from the X clipboard
+(global-set-key (kbd "C-x M-v") 'x-clipboard-yank)

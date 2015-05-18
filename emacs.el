@@ -19,7 +19,10 @@
  '(standard-indent 4)
  '(tab-stop-list (number-sequence 4 200 4))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
- '(whitespace-style (quote (face tabs trailing indentation space-after-tab))))
+ '(whitespace-style (quote (face tabs trailing indentation space-after-tab)))
+ '(x-select-enable-clipboard nil)
+ '(x-select-enable-clipboard-manager nil)
+ '(x-select-enable-primary t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
