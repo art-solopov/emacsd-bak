@@ -6,6 +6,7 @@
 
 ;; Magit
 (global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x C-g") 'magit-status)
 
 ;; Ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
@@ -18,3 +19,4 @@
 
 ;; Paste from the X clipboard
 (global-set-key (kbd "C-x M-v") 'x-clipboard-yank)
+(global-set-key (kbd "M-1") 'x-clipboard-yank)

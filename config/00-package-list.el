@@ -32,6 +32,7 @@
     clean-aindent-mode
     highlight-indentation
     lush-theme
+    ecb
     )
   "List of packages to install")
 

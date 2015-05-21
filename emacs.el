@@ -13,6 +13,7 @@
  '(cua-mode t nil (cua-base))
  '(custom-enabled-themes (quote (lush)))
  '(delete-old-versions nil)
+ '(ecb-options-version "2.40")
  '(enh-ruby-deep-indent-paren nil)
  '(indent-tabs-mode nil)
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.org/packages/"))))
@@ -20,9 +21,8 @@
  '(tab-stop-list (number-sequence 4 200 4))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
  '(whitespace-style (quote (face tabs trailing indentation space-after-tab)))
- '(x-select-enable-clipboard nil)
  '(x-select-enable-clipboard-manager nil)
- '(x-select-enable-primary t))
+ '(x-select-enable-primary nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
