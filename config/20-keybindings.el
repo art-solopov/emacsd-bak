@@ -14,6 +14,9 @@
 ;; Highlight indentation
 (global-set-key (kbd "C-x M-i") 'highlight-indentation-mode)
 
+;; Comments
+(global-set-key (kbd "C-x M-0") 'comment-or-uncomment-region)
+
 ;; Goto line
 (global-set-key (kbd "M-p") 'goto-line)
 
