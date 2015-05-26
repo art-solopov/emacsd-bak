@@ -16,7 +16,11 @@
  '(ecb-options-version "2.40")
  '(enh-ruby-deep-indent-paren nil)
  '(indent-tabs-mode nil)
- '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa" . "http://melpa.org/packages/"))))
+ '(package-archives
+   (quote
+    (("gnu" . "http://elpa.gnu.org/packages/")
+     ("marmalade" . "http://marmalade-repo.org/packages/")
+     ("melpa" . "http://melpa.org/packages/"))))
  '(standard-indent 4)
  '(tab-stop-list (number-sequence 4 200 4))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
