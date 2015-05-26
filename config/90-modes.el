@@ -12,6 +12,7 @@
 (global-diff-hl-mode)
 (show-paren-mode)
 (global-linum-mode)
+(global-auto-complete-mode)
 
 (projectile-global-mode)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
@@ -20,6 +21,8 @@
 (add-hook 'scss-mode-hook 'rainbow-mode)
 
 (add-hook 'find-file-hook 'whitespace-mode)
+
+(add-hook 'ruby-mode-hook 'ruby-tools-mode)
 
 (when (package-installed-p 'smex)
   (global-set-key (kbd "M-x") 'smex)
