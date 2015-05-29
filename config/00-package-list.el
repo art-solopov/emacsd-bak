@@ -11,7 +11,7 @@
       (ruby-pkg '(ruby-end rspec-mode ruby-tools rvm ruby-additional))
       (lang-pkg '(haml-mode elixir-mode erlang coffee-mode markdown-mode
                             scss-mode yaml-mode))
-      (web-pkg '(rainbow-mode))
+      (web-pkg '(rainbow-mode web-mode))
       )
   (defvar package-list
     (-concat sys-pkg git-pkg ui-pkg theme-pkg ext-pkg projectile-pkg ruby-pkg

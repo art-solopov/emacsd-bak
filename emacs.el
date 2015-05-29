@@ -24,6 +24,8 @@
  '(standard-indent 4)
  '(tab-stop-list (number-sequence 4 200 4))
  '(uniquify-buffer-name-style (quote post-forward-angle-brackets) nil (uniquify))
+ '(web-mode-css-indent-offset 2)
+ '(web-mode-enable-auto-indentation nil)
  '(whitespace-style (quote (face tabs trailing indentation space-after-tab)))
  '(x-select-enable-clipboard-manager nil)
  '(x-select-enable-primary nil))
@@ -33,7 +35,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-marker-1 ((t (:background "black"))) t)
- '(highlight-indentation-face ((t (:background "#555"))) t))
+ '(highlight-indentation-face ((t (:background "#555")))))
 
 (set-face-attribute 'default nil :height 140)
 

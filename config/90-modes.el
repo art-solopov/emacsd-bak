@@ -31,3 +31,5 @@
   )
 
 (setq magit-last-seen-setup-instructions "1.4.0")
+
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
