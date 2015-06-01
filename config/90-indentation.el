@@ -2,8 +2,8 @@
   "Set the indentation to <spcnum> spaces"
   (set (make-local-variable 'standard-indent) spcnum)
   (set (make-local-variable 'tab-stop-list) (number-sequence spcnum 200 spcnum))
-  (set (make-local-variable 'web-mode-code-indent-offset spcnum))
-  (set (make-local-variable 'web-mode-markup-indent-offset spcnum))
+  (set (make-local-variable 'web-mode-code-indent-offset) spcnum)
+  (set (make-local-variable 'web-mode-markup-indent-offset) spcnum)
   (highlight-indentation-set-offset spcnum)
   )
 
