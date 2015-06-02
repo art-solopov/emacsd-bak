@@ -23,6 +23,7 @@
 (add-hook 'find-file-hook 'whitespace-mode)
 
 (add-hook 'ruby-mode-hook 'ruby-tools-mode)
+(add-hook 'ruby-mode-hook 'ruby-electric-mode)
 
 (when (package-installed-p 'smex)
   (global-set-key (kbd "M-x") 'smex)
