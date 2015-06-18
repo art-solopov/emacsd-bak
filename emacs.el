@@ -6,6 +6,7 @@
  '(auto-save-file-name-transforms (\` ((".*" (\, temporary-file-directory) t))))
  '(backup-by-copying t)
  '(backup-directory-alist (\` ((".*" \, temporary-file-directory))))
+ '(blink-cursor-mode t)
  '(coffee-tab-width 2)
  '(column-number-mode t)
  '(css-indent-offset 2)
@@ -36,6 +37,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-marker-1 ((t (:background "black"))) t)
+ '(cursor ((t (:background "white"))))
  '(highlight-indentation-face ((t (:background "#555")))))
 
 (set-face-attribute 'default nil :height 140)
