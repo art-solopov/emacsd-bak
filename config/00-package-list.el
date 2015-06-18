@@ -4,7 +4,7 @@
       (sys-pkg '(f dash s))
       (git-pkg '(magit diff-hl))
       (ui-pkg '(undo-tree smex column-marker flx-ido dired-rainbow ag
-                          auto-complete ecb highlight-indentation))
+                          auto-complete ecb highlight-indentation hydra))
       (theme-pkg '(lush-theme))
       (ext-pkg '(ag))
       (projectile-pkg '(projectile projectile-rails))
