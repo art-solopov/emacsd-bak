@@ -1,4 +1,4 @@
-(defhydra hydra-windmove (global-map "C-c C-c v")
+(defhydra hydra-windmove (global-map "C-c w")
   "windmove"
   ("<up>" windmove-up)
   ("<down>" windmove-down)
