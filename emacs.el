@@ -13,6 +13,9 @@
  '(cua-enable-cua-keys t)
  '(cua-mode t nil (cua-base))
  '(custom-enabled-themes (quote (lush)))
+ '(custom-safe-themes
+   (quote
+    ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
  '(delete-old-versions nil)
  '(ecb-options-version "2.40")
  '(enh-ruby-deep-indent-paren nil)
@@ -22,6 +25,10 @@
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("marmalade" . "http://marmalade-repo.org/packages/")
      ("melpa" . "http://melpa.org/packages/"))))
+ '(rich-minority-mode t)
+ '(rm-blacklist
+   (quote
+    (" hl-p" " Undo-Tree" " MRev" " ws" " rt" " REl" " AC")))
  '(ruby-insert-encoding-magic-comment nil)
  '(standard-indent 4)
  '(tab-stop-list (number-sequence 4 200 4))

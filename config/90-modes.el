@@ -31,6 +31,16 @@
   (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
   )
 
+(sml/setup)
+
+;; Replace any project directory with an upcased name as a prefix
+(add-to-list 'sml/replacer-regexp-list '("^~.*/[Pp]rojects/\\(\\w+\\)/"
+                                         (lambda(s) (concat ":" (upcase (match-string 1 s)) ":"))
+                                         ) t)
+(add-to-list 'sml/replacer-regexp-list '("^:\\(.*\\):app/\\(\\w+\\)/" ":\\1|\\2:") t)
+(add-to-list 'sml/replacer-regexp-list '("^:\\(.*\\):spec/\\(\\w+\\)/" ":\\1|spec/\\2:") t)
+
+
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
