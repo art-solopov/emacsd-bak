@@ -19,6 +19,7 @@
  '(delete-old-versions nil)
  '(ecb-options-version "2.40")
  '(enh-ruby-deep-indent-paren nil)
+ '(global-discover-mode t)
  '(indent-tabs-mode nil)
  '(package-archives
    (quote
