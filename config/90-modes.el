@@ -34,7 +34,7 @@
 (sml/setup)
 
 ;; Replace any project directory with an upcased name as a prefix
-(add-to-list 'sml/replacer-regexp-list '("^~.*/[Pp]rojects/\\(\\w+\\)/"
+(add-to-list 'sml/replacer-regexp-list '("^~.*/[Pp]rojects/.*/\\(\\w+\\)/"
                                          (lambda(s) (concat ":" (upcase (match-string 1 s)) ":"))
                                          ) t)
 (add-to-list 'sml/replacer-regexp-list '("^:\\(.*\\):app/\\(\\w+\\)/" ":\\1|\\2:") t)
