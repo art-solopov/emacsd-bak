@@ -22,3 +22,6 @@
 ;; Paste from the X clipboard
 (global-set-key (kbd "C-x M-v") 'x-clipboard-yank)
 (global-set-key (kbd "M-1") 'x-clipboard-yank)
+
+;; Browse-kill-ring
+(global-set-key (kbd "C-x C-k") 'browse-kill-ring)
