@@ -44,3 +44,23 @@
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+
+(defun ecb-root ()
+  (if (projectile-project-p)
+      (list (projectile-project-root) (projectile-project-name))
+    (list (getenv "HOME") "~")
+    )
+  )
+
+(defun set-ecb-root-with-projectile ()
+  (setq ecb-source-path (ecb-root))
+  )
+
+(set-ecb-root-with-projectile)
+(add-hook 'projectile-after-switch-project-hook 'set-ecb-root-with-projectile)
+
+(require 'speedbar)
+
+(speedbar-add-supported-extension ".rb")
+(add-to-list 'speedbar-fetch-etags-parse-list
+             '("\\.rb" . speedbar-parse-c-or-c++tag))

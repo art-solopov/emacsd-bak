@@ -25,3 +25,6 @@
 
 ;; Browse-kill-ring
 (global-set-key (kbd "C-x C-k") 'browse-kill-ring)
+
+;; Speedbar
+(global-set-key (kbd "<f6>") 'speedbar-get-focus)
