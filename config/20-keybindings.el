@@ -14,14 +14,10 @@
 (global-set-key (kbd "C-x M-i") 'highlight-indentation-mode)
 
 ;; Comments
-(global-set-key (kbd "C-x M-0") 'comment-or-uncomment-region)
+(global-set-key (kbd "M-0") 'comment-or-uncomment-region)
 
 ;; Goto line
 (global-set-key (kbd "M-p") 'goto-line)
-
-;; Paste from the X clipboard
-(global-set-key (kbd "C-x M-v") 'x-clipboard-yank)
-(global-set-key (kbd "M-1") 'x-clipboard-yank)
 
 ;; Browse-kill-ring
 (global-set-key (kbd "C-x C-k") 'browse-kill-ring)

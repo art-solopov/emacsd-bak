@@ -5,7 +5,7 @@
       (git-pkg '(magit diff-hl))
       (ui-pkg '(undo-tree smex column-marker flx-ido dired-rainbow ag
                           auto-complete ecb highlight-indentation hydra
-                          smart-mode-line rich-minority discover))
+                          smart-mode-line rich-minority discover yasnippets))
       (theme-pkg '(lush-theme))
       (ext-pkg '(ag))
       (projectile-pkg '(projectile projectile-rails))

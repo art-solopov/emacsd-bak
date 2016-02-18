@@ -54,7 +54,7 @@
   )
 
 (defun set-ecb-root-with-projectile ()
-  (setq ecb-source-path (ecb-root))
+  (setq ecb-source-path (list (ecb-root)))
   )
 
 (set-ecb-root-with-projectile)

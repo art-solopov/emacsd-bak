@@ -17,7 +17,9 @@
    (quote
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
  '(delete-old-versions nil)
+ '(ecb-layout-name "right2")
  '(ecb-options-version "2.40")
+ '(ecb-tip-of-the-day nil)
  '(enh-ruby-deep-indent-paren nil)
  '(global-discover-mode t)
  '(indent-tabs-mode nil)
