@@ -28,6 +28,7 @@
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("marmalade" . "http://marmalade-repo.org/packages/")
      ("melpa" . "http://melpa.org/packages/"))))
+ '(projectile-tags-command "ctags-exuberant -Re -f \"%s\" %s")
  '(rich-minority-mode t)
  '(rm-blacklist
    (quote

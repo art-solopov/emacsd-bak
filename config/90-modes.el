@@ -6,13 +6,11 @@
 (setq ido-enable-flex-matching t)
 (setq ido-use-faces nil)
 
-(ac-config-default)
-
 (global-undo-tree-mode)
 (global-diff-hl-mode)
 (show-paren-mode)
 (global-linum-mode)
-(global-auto-complete-mode)
+(yas-global-mode)
 
 (projectile-global-mode)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
