@@ -4,7 +4,7 @@
       (sys-pkg '(f dash s))
       (git-pkg '(magit diff-hl))
       (ui-pkg '(undo-tree smex column-marker flx-ido dired-rainbow ag
-                          company ecb highlight-indentation hydra
+                          company company-jedi ecb highlight-indentation hydra
                           smart-mode-line rich-minority discover yasnippet))
       (theme-pkg '(lush-theme))
       (ext-pkg '(ag))

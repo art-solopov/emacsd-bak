@@ -11,6 +11,8 @@
 (show-paren-mode)
 (global-linum-mode)
 (yas-global-mode)
+(global-company-mode)
+(add-to-list 'company-backends 'company-jedi)
 
 (projectile-global-mode)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
