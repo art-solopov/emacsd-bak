@@ -12,6 +12,7 @@
 (global-linum-mode)
 (yas-global-mode)
 (global-company-mode)
+(global-flycheck-mode)
 (add-to-list 'company-backends 'company-jedi)
 
 (projectile-global-mode)
