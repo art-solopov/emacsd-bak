@@ -6,7 +6,7 @@
       (ui-pkg '(undo-tree smex column-marker flx-ido dired-rainbow ag
                           company company-jedi ecb highlight-indentation hydra
                           smart-mode-line rich-minority discover
-                          yasnippet django-snippets
+                          yasnippet django-snippets edbi es-window
                           flycheck))
       (theme-pkg '(lush-theme))
       (ext-pkg '(ag))
