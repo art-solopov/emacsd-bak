@@ -24,3 +24,10 @@
 
 ;; Speedbar
 (global-set-key (kbd "<f6>") 'speedbar-get-focus)
+
+;; ES-window
+(global-set-key (kbd "C-c C-w") 'esw/select-window)
+(global-set-key (kbd "C-c C-e") 'esw/show-buffer)
+
+;; Imenu
+(global-set-key (kbd "C-c C-r") 'imenu)
