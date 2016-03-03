@@ -26,8 +26,11 @@
 (global-set-key (kbd "<f6>") 'speedbar-get-focus)
 
 ;; ES-window
-(global-set-key (kbd "C-c C-w") 'esw/select-window)
-(global-set-key (kbd "C-c C-e") 'esw/show-buffer)
+(global-set-key (kbd "C-c C-.") 'esw/select-window)
+(global-set-key (kbd "C-c C-,") 'esw/show-buffer)
 
 ;; Imenu
-(global-set-key (kbd "C-c C-r") 'imenu)
+(global-set-key (kbd "C-c f") 'imenu)
+
+;; Copy current file path
+(global-set-key (kbd "C-c @") (lambda () (interactive) (kill-new buffer-file-name)))
