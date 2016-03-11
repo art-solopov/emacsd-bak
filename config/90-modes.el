@@ -13,6 +13,8 @@
 (yas-global-mode)
 (global-company-mode)
 (global-flycheck-mode)
+(electric-pair-mode)
+
 (add-to-list 'company-backends 'company-jedi)
 
 (projectile-global-mode)
@@ -20,6 +22,11 @@
 
 (add-hook 'css-mode-hook 'rainbow-mode)
 (add-hook 'scss-mode-hook 'rainbow-mode)
+
+(add-hook 'web-mode-hook 'emmet-mode)
+(add-hook 'html-mode-hook 'emmet-mode)
+(add-hook 'css-mode-hook 'emmet-mode)
+(add-hook 'scss-mode-hook 'emmet-mode)
 
 (add-hook 'find-file-hook 'whitespace-mode)
 
