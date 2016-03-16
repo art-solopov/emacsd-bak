@@ -53,7 +53,11 @@
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html.erb\\'" . web-mode))
+
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.es\\'" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.es6\\'" . js2-mode))
 
 (defun ecb-root ()
   (if (projectile-project-p)

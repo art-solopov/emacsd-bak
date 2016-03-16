@@ -34,6 +34,7 @@
    (quote
     (" hl-p" " Undo-Tree" " MRev" " ws" " rt" " REl" " AC")))
  '(ruby-insert-encoding-magic-comment nil)
+ '(safe-local-variable-values (quote ((whitespace-line-column . 110))))
  '(speedbar-default-position (quote right))
  '(standard-indent 4)
  '(tab-stop-list (number-sequence 4 200 4))
