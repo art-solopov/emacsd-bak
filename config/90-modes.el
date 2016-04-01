@@ -54,10 +54,13 @@
 
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.js.erb\\'" . web-mode))
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.es\\'" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.es6\\'" . js2-mode))
+
+(add-to-list 'auto-mode-alist '("\\.css.erb\\'" . css-mode))
 
 (defun ecb-root ()
   (if (projectile-project-p)
