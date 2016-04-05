@@ -81,3 +81,13 @@
 (speedbar-add-supported-extension ".rb")
 (add-to-list 'speedbar-fetch-etags-parse-list
              '("\\.rb" . speedbar-parse-c-or-c++tag))
+
+(defun set-frame-title ()
+  (if (projectile-project-p)
+      (setq frame-title-format (s-concat (upcase (projectile-project-name)) " %b @ Emacs" ))
+    (setq frame-title-format "%f @ Emacs")
+      )
+  )
+
+(set-frame-title)
+(add-hook 'projectile-after-switch-project-hook 'set-frame-title)
